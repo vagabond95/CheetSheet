@@ -5,9 +5,11 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18568840579710144" />
         <entry key="app/src/main/res/layout/activity_parent_page.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/activity_parent_recycler_view.xml" value="0.31302083333333336" />
         <entry key="app/src/main/res/layout/constraint_vertical_center.xml" value="0.27279635258358664" />
         <entry key="app/src/main/res/layout/fragment_childe.xml" value="0.25861195542046606" />
         <entry key="app/src/main/res/layout/viewholder_main.xml" value="0.18568840579710144" />
+        <entry key="app/src/main/res/layout/viewholder_main_recyclerview.xml" value="0.328125" />
       </map>
     </option>
   </component>

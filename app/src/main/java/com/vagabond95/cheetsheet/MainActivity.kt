@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.vagabond95.cheetsheet.databinding.ActivityMainBinding
+import com.vagabond95.cheetsheet.recyclerview.ParentRecyclerViewActivity
 import com.vagabond95.cheetsheet.viewpager2.ParentPageActivity
 
 class MainActivity : AppCompatActivity() {
@@ -23,7 +24,8 @@ class MainActivity : AppCompatActivity() {
 
         // 여기 item 추가
         val items = arrayListOf(
-            MainItem("ViewPager2") { startViewPager2() }
+            MainItem("ViewPager2") { startViewPager2() },
+            MainItem("GridRecyclerView") { startRecyclerView() }
         )
 
         val adapter = MainAdapter()
@@ -34,5 +36,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun startViewPager2() {
         startActivity(Intent(this, ParentPageActivity::class.java))
+    }
+
+    private fun startRecyclerView() {
+        startActivity(Intent(this, ParentRecyclerViewActivity::class.java))
     }
 }
